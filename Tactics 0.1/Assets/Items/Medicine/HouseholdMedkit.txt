@@ -1,0 +1,5 @@
+name Household Medkit
+
+recoveryAmount 5
+rank F
+uses 25

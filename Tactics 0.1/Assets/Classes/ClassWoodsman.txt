@@ -1,0 +1,11 @@
+name Woodsman
+move 5
+infantry
+axe
+rifle
+terrain floor 1
+terrain grass 1
+terrain scrub 2
+terrain woods 1
+terrain cliff 100
+terrain water 5

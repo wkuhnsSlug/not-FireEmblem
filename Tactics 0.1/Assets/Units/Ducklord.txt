@@ -1,0 +1,18 @@
+Assets\Sprites\Meagan.png
+9 -30
+
+name Ducklord
+class Assets\Classes\ClassLord.txt
+move 6
+hp 25
+strength 11
+defense 6
+speed 9
+accuracy 6
+agility 10
+skill 8
+luck 7
+build 10
+rank axe F
+rank lance F
+rank sword S

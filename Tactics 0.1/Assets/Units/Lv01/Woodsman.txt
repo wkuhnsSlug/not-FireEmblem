@@ -1,0 +1,27 @@
+Assets\Sprites\WoodsmanM.png
+15 -30
+
+name Bandit
+class Assets\Classes\ClassWoodsman.txt
+level 1
+exp 0
+move 5
+hp 20
+strength 5
+defense 3
+speed 4
+accuracy 2
+agility 2
+skill 1
+luck 1
+build 9
+rank fist F
+rank knife F
+rank sword F
+rank lance F
+rank axe F
+rank club F
+rank handgun F
+rank shotgun F
+rank rifle F
+rank medicine F

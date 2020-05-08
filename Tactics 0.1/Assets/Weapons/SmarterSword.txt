@@ -1,0 +1,11 @@
+name Smarter Sword
+might 4
+accuracy 85
+crit 10
+weight 6
+minRange 1
+maxRange 1
+type sword
+rank C
+wield all
+uses 40

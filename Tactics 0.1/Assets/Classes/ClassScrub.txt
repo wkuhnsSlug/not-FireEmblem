@@ -1,0 +1,11 @@
+name Scrub
+move 5
+infantry
+axe
+sword
+terrain floor 1
+terrain grass 1
+terrain scrub 2
+terrain woods 2
+terrain cliff 100
+terrain water 5

@@ -1,0 +1,27 @@
+Assets\Sprites\BrawlerM.png
+9 -30
+
+name Bandit
+class Assets\Classes\ClassBrawler.txt
+level 1
+exp 0
+move 5
+hp 18
+strength 4
+defense 2
+speed 6
+accuracy 4
+agility 5
+skill 2
+luck 1
+build 7
+rank axe F
+rank lance F
+rank sword F
+rank fist F
+rank club F
+rank knife F
+rank handgun F
+rank shotgun F
+rank rifle F
+rank medicine F

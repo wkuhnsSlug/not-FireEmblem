@@ -1,0 +1,4 @@
+name Furniture
+avo 10
+def 0
+terrain floor

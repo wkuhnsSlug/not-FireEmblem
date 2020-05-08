@@ -1,0 +1,5 @@
+name Advanced Medkit
+
+recoveryAmount 20
+rank F
+uses 20

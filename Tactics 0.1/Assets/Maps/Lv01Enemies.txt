@@ -1,0 +1,19 @@
+unit Assets\Units\Lv01\Brawler.txt
+5 5
+weapon Assets\Weapons\Fists\BasicKnuckles.txt
+
+unit Assets\Units\Lv01\Woodsman.txt
+9 3
+weapon Assets\Weapons\Axes\WoodcuttingAxe.txt
+
+unit Assets\Units\Lv01\Brawler.txt
+10 6
+weapon Assets\Weapons\Clubs\WoodenBaseballBat.txt
+
+unit Assets\Units\Lv01\Woodsman.txt
+7 10
+weapon Assets\Weapons\Axes\WoodcuttingAxe.txt
+
+unit Assets\Units\Lv01\Brawler.txt
+5 11
+weapon Assets\Weapons\Fists\BasicKnuckles.txt

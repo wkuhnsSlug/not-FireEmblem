@@ -1,0 +1,27 @@
+Assets\Sprites\Meagan.png
+9 -30
+
+name Meagan
+class Assets\Classes\ClassHunter.txt
+level 1
+exp 0
+move 6
+hp 20
+strength 6
+defense 5
+speed 6
+accuracy 5
+agility 5
+skill 4
+luck 8
+build 6
+rank fist F
+rank knife F
+rank sword F
+rank lance F
+rank axe F
+rank club F
+rank handgun F
+rank shotgun F
+rank rifle F
+rank medicine F

@@ -1,0 +1,11 @@
+name Basic Axe
+might 8
+accuracy 75
+crit 0
+weight 10
+minRange 1
+maxRange 1
+type axe
+rank F
+wield all
+uses 45

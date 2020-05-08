@@ -1,0 +1,10 @@
+unit Assets\Units\Meagan.txt
+3 3
+weapon Assets\Weapons\Knives\HuntersKnife.txt
+weapon Assets\Weapons\GenericShotgun.txt
+potion Assets\Items\GenericPotion.txt
+
+unit Assets\Units\Devan.txt
+4 2
+weapon Assets\Weapons\DumbClub.txt
+medicine Assets\Items\Medicine\HouseholdMedkit.txt

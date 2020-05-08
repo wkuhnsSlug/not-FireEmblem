@@ -1,0 +1,11 @@
+name Lord
+move 6
+infantry
+sword
+lance
+terrain floor 1
+terrain grass 1
+terrain scrub 2
+terrain woods 2
+terrain cliff 3
+terrain water 3

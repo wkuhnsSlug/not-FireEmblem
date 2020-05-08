@@ -1,0 +1,173 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{CCDD6A86-D131-408A-8109-AA27E4E261BD}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Tactics01</RootNamespace>
+    <ProjectName>Tactics 0.1</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v141</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Include;$(UniversalCRT_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-network-d.lib;sfml-audio-d.lib;sfml-graphics-d.lib;sfml-window-d.lib;sfml-system-d.lib;kernel32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)\Include;$(UniversalCRT_IncludePath);%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalLibraryDirectories>$(SolutionDir)\Lib;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>sfml-network-2.lib;sfml-audio-2.lib;sfml-graphics-2.lib;sfml-window-2.lib;sfml-system-2.lib;kernel32.lib;user32.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="AnimatedSprite.cpp" />
+    <ClCompile Include="AuxMath.cpp" />
+    <ClCompile Include="Font.cpp" />
+    <ClCompile Include="Game.cpp" />
+    <ClCompile Include="GameState.cpp" />
+    <ClCompile Include="GameStateActionMenu.cpp" />
+    <ClCompile Include="GameStateCombat.cpp" />
+    <ClCompile Include="GameStateEnemy.cpp" />
+    <ClCompile Include="GameStateLevelUp.cpp" />
+    <ClCompile Include="GameStateMap.cpp" />
+    <ClCompile Include="GameStateOptionsMenu.cpp" />
+    <ClCompile Include="GameStateSelectAttack.cpp" />
+    <ClCompile Include="GameStateSelectHeal.cpp" />
+    <ClCompile Include="GameStateStatusMenu.cpp" />
+    <ClCompile Include="GameStateTrade.cpp" />
+    <ClCompile Include="GraphicsInterface.cpp" />
+    <ClCompile Include="KeyboardBase.cpp" />
+    <ClCompile Include="Line.cpp" />
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Medicine.cpp" />
+    <ClCompile Include="Mouse.cpp" />
+    <ClCompile Include="Potion.cpp" />
+    <ClCompile Include="Screen.cpp" />
+    <ClCompile Include="ScreenLevel.cpp" />
+    <ClCompile Include="Shader.cpp" />
+    <ClCompile Include="ShaderContainer.cpp" />
+    <ClCompile Include="ShaderNoParam.cpp" />
+    <ClCompile Include="ShaderParamTexture.cpp" />
+    <ClCompile Include="Sprite.cpp" />
+    <ClCompile Include="SpriteManager.cpp" />
+    <ClCompile Include="Tile.cpp" />
+    <ClCompile Include="Tilemap.cpp" />
+    <ClCompile Include="Unit.cpp" />
+    <ClCompile Include="UnitClass.cpp" />
+    <ClCompile Include="Utility.cpp" />
+    <ClCompile Include="Viewport.cpp" />
+    <ClCompile Include="Weapon.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AnimatedSprite.h" />
+    <ClInclude Include="AuxMath.h" />
+    <ClInclude Include="Circle.h" />
+    <ClInclude Include="Extras.h" />
+    <ClInclude Include="Font.h" />
+    <ClInclude Include="Game.h" />
+    <ClInclude Include="GameState.h" />
+    <ClInclude Include="GameStateActionMenu.h" />
+    <ClInclude Include="GameStateCombat.h" />
+    <ClInclude Include="GameStateEnemy.h" />
+    <ClInclude Include="GameStateLevelUp.h" />
+    <ClInclude Include="GameStateMap.h" />
+    <ClInclude Include="GameStateOptionsMenu.h" />
+    <ClInclude Include="GameStateSelectAttack.h" />
+    <ClInclude Include="GameStateSelectHeal.h" />
+    <ClInclude Include="GameStateStatusMenu.h" />
+    <ClInclude Include="GameStateTrade.h" />
+    <ClInclude Include="GraphicsInterface.h" />
+    <ClInclude Include="Item.h" />
+    <ClInclude Include="KeyboardBase.h" />
+    <ClInclude Include="KeyboardDefines.h" />
+    <ClInclude Include="LevelDefines.h" />
+    <ClInclude Include="Line.h" />
+    <ClInclude Include="Medicine.h" />
+    <ClInclude Include="Mouse.h" />
+    <ClInclude Include="Potion.h" />
+    <ClInclude Include="Rectangle.h" />
+    <ClInclude Include="Screen.h" />
+    <ClInclude Include="ScreenLevel.h" />
+    <ClInclude Include="SFLine.h" />
+    <ClInclude Include="Shader.h" />
+    <ClInclude Include="ShaderContainer.h" />
+    <ClInclude Include="ShaderNoParam.h" />
+    <ClInclude Include="ShaderParamTexture.h" />
+    <ClInclude Include="Sprite.h" />
+    <ClInclude Include="SpriteManager.h" />
+    <ClInclude Include="Tile.h" />
+    <ClInclude Include="Tilemap.h" />
+    <ClInclude Include="Unit.h" />
+    <ClInclude Include="UnitClass.h" />
+    <ClInclude Include="Utility.h" />
+    <ClInclude Include="VectorMath2D.h" />
+    <ClInclude Include="Viewport.h" />
+    <ClInclude Include="Weapon.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,18 @@
+Assets\Sprites\BrawlerM.png
+9 -30
+
+name Badduck
+class Assets\Classes\ClassScrub.txt
+move 5
+hp 20
+strength 7
+defense 5
+speed 4
+accuracy 6
+agility 3
+skill 3
+luck 3
+build 9
+rank axe F
+rank lance F
+rank sword F

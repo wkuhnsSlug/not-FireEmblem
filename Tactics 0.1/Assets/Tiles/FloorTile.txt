@@ -1,0 +1,4 @@
+name Floor
+avo 0
+def 0
+terrain floor

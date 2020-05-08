@@ -1,0 +1,10 @@
+name Thug
+move 4
+infantry
+fist
+terrain floor 1
+terrain grass 1
+terrain scrub 2
+terrain woods 2
+terrain cliff 100
+terrain water 5

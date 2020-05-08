@@ -1,0 +1,11 @@
+name Common Lance
+might 70
+accuracy 70
+crit 0
+weight 13
+minRange 1
+maxRange 1
+type lance
+rank D
+wield all
+uses 35

@@ -1,0 +1,11 @@
+name Generic Shotgun
+might 11
+accuracy 75
+crit 0
+weight 6
+minRange 1
+maxRange 4
+type shotgun
+rank F
+wield all
+uses 10

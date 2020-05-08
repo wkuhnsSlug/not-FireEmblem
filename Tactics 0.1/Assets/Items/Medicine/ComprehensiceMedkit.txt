@@ -1,0 +1,5 @@
+name Comprehensive Medkit
+
+recoveryAmount 100
+rank F
+uses 10

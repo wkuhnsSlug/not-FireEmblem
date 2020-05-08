@@ -1,0 +1,4 @@
+name Wall
+avo 0
+def 0
+terrain impassable

@@ -1,0 +1,4 @@
+name Generic Potion
+
+recoveryAmount 10
+uses 3

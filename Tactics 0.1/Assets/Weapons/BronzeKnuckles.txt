@@ -1,0 +1,11 @@
+name Bronze Knuckles
+might 2
+accuracy 75
+crit 0
+weight 4
+minRange 1
+maxRange 1
+type fist
+rank F
+wield all
+uses 40

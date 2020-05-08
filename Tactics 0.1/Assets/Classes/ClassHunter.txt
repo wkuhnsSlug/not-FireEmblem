@@ -1,0 +1,11 @@
+name Hunter
+move 6
+infantry
+knife
+shotgun
+terrain floor 1
+terrain grass 1
+terrain scrub 2
+terrain woods 2
+terrain cliff 5
+terrain water 5

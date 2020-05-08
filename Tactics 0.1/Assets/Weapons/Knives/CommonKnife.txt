@@ -1,0 +1,11 @@
+name Common Knife
+might 5
+accuracy 90
+crit 0
+weight 6
+minRange 1
+maxRange 1
+type sword
+rank D
+wield all
+uses 35

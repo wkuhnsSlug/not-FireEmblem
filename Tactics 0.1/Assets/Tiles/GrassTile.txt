@@ -1,0 +1,4 @@
+name Grass
+avo 0
+def 0
+terrain grass

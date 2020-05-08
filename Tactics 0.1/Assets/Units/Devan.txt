@@ -1,0 +1,27 @@
+Assets\Sprites\Devan.png
+20 -20
+
+name Devan
+class Assets\Classes\ClassMedic.txt
+level 1
+exp 0
+move 5
+hp 16
+strength 2
+defense 3
+speed 5
+accuracy 4
+agility 6
+skill 5
+luck 7
+build 4
+rank fist F
+rank knife F
+rank sword F
+rank lance F
+rank axe F
+rank club F
+rank handgun F
+rank shotgun F
+rank rifle F
+rank medicine F

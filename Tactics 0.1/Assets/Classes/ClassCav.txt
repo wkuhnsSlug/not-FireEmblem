@@ -1,0 +1,11 @@
+name Cavalier
+move 7
+mounted
+lance
+sword
+terrain floor 1
+terrain grass 1
+terrain scrub 2
+terrain woods 3
+terrain cliff 100
+terrain water 3

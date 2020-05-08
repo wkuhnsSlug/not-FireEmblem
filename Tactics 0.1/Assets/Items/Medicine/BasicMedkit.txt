@@ -1,0 +1,5 @@
+name Basic Medkit
+
+recoveryAmount 10
+rank F
+uses 30
